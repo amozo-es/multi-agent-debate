@@ -1,0 +1,21 @@
+# Core dependencies
+python-dotenv>=1.0.0
+openai>=1.0.0
+transformers>=4.35.0
+torch>=2.0.0
+faiss-cpu>=1.7.4
+datasets>=2.14.0
+sentence-transformers>=2.2.2
+
+# Optional: GPU support for FAISS (uncomment if using GPU)
+# faiss-gpu>=1.7.4
+
+# Optional: BitsAndBytesConfig for quantization (uncomment if needed)
+# bitsandbytes>=0.41.0
+# accelerate>=0.24.0
+
+# Development dependencies (uncomment for development)
+# pytest>=7.0.0
+# black>=23.0.0
+# flake8>=6.0.0
+# mypy>=1.0.0
